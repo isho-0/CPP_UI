@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\graphics">
+      <UniqueIdentifier>{21734273-15a9-4129-af21-52cea1dab9d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{a8290262-d2e5-40d0-83f1-215c27a47937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\containers">
+      <UniqueIdentifier>{d156d9b9-7d26-488d-a79a-d3cd4d9cb132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\core">
+      <UniqueIdentifier>{09c322a0-55c3-4372-9a29-8c61927dc4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\widgets">
+      <UniqueIdentifier>{366d4c9a-ba3a-4952-801b-a528038a1a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\resources">
+      <UniqueIdentifier>{d5ed12ea-8893-4e2d-8fb4-fba751c9de97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\drawables">
+      <UniqueIdentifier>{50600822-17db-4ff6-b5e2-45fa7cdaa448}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UI\containers.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\widgets.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\containers\common.h">
+      <Filter>Header Files\UI\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\containers\linear.h">
+      <Filter>Header Files\UI\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\containers\overlay.h">
+      <Filter>Header Files\UI\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\core\base_types.h">
+      <Filter>Header Files\UI\core</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\core\core.h">
+      <Filter>Header Files\UI\core</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\widgets\common.h">
+      <Filter>Header Files\UI\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\widgets\dummy.h">
+      <Filter>Header Files\UI\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\widgets\spacer.h">
+      <Filter>Header Files\UI\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\asset_manager.h">
+      <Filter>Header Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\assets_manager.h">
+      <Filter>Header Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\widgets\window_drag.h">
+      <Filter>Header Files\UI\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\widgets\button.h">
+      <Filter>Header Files\UI\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\window.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\drawables.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\drawables\rect.h">
+      <Filter>Header Files\UI\drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\drawables\text.h">
+      <Filter>Header Files\UI\drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\drawables\circ.h">
+      <Filter>Header Files\UI\drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\drawables\image.h">
+      <Filter>Header Files\UI\drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\drawables\common.h">
+      <Filter>Header Files\UI\drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\manager.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\initializer.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\containers\one_of.h">
+      <Filter>Header Files\UI\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\widgets\toggle.h">
+      <Filter>Header Files\UI\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\widgets\tabbed.h">
+      <Filter>Header Files\UI\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\containers\padding.h">
+      <Filter>Header Files\UI\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\containers\resizable.h">
+      <Filter>Header Files\UI\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\containers\input.h">
+      <Filter>Header Files\UI\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\widgets\dropdown.h">
+      <Filter>Header Files\UI\widgets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
